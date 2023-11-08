@@ -1,0 +1,26 @@
+<canvas width = "600" height = "400" ></canvas>
+
+
+
+<script> 
+	
+	var tela = documnt.querySelector("canvas");
+	var pincel = tela.getContext("2d");
+
+	pincel.fillsty = "grey";
+	pincel.fillReact(0,0,600,400);
+
+	function desenhaCirculo(evento) {
+
+        var x = evento.pagex - tele.offsetLefl;
+        var y = evento.pagey - tele.offsetTop;
+        pincel.beginPath();
+        pincel.arc(x,y,10,0, 2 * 3.14);
+        pincel.fill();
+		console.log("x + ',' + y");
+		
+	}
+
+	tele.onclick = desenhaCirculo;
+
+</script>

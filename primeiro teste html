@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+
+<script>
+    
+    function pulalinha() {
+       document.write("<br><br>")
+    }
+    var ano = 2016;
+    
+
+    document.write("Flávio tem" + (ano-39) + "anos"  +      (puloLinha()));
+    document.write("Joaquim tem" + (ano-20) + "anos" + (puloLimha()));
+    
+    ano = 2017;
+
+    document.write(("Barney tem" + (ano-40) + "anos" ));
+   
+</script>
