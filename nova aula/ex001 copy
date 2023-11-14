@@ -20,12 +20,9 @@
  <h1> olá, feio!</h1>
  <p>Já me livrei deste feio</p>
  <script>
-    
-     var n1 = number(window.prompt("digite um número"));
-     var n2 = number(window.prompt("Digite outro número"));
-     var s = n1 + n2 
-     window.alert("A soma dos valores é" + s);
-
+     window.alert("minha primeira mensagem")
+     window.confirm("Está gostando do js")
+     window.prompt("qual é seu nome");
  </script>
 </body>
 </html>
