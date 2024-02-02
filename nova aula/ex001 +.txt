@@ -20,9 +20,10 @@
  <h1> olá, feio!</h1>
  <p>Já me livrei deste feio</p>
  <script>
-    Number.(window.prompt ("minha primeira mensagem"));
-     Number.(window.pronot("Está gostando do js"));
-     window.prompt("qual é seu nome");
+     var nome = window.prompt('Qual é seu nome');
+     document.write('Olá,<strong>'${nome}'</strong>! Seu nome tem'${nome.length}'letras.<br/>');
+     document.write('seu nome em maiúsculas é' ${nome.toUpperCase()});
+     document.write('Seu nome em minúsculas é' ${nome.toLowerCase()});
  </script>
 </body>
 </html>

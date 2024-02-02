@@ -20,9 +20,10 @@
  <h1> olá, feio!</h1>
  <p>Já me livrei deste feio</p>
  <script>
-    Number.(window.prompt ("minha primeira mensagem"));
-     Number.(window.pronot("Está gostando do js"));
-     window.prompt("qual é seu nome");
+     var n1 = Number(window.prompt('digite um número:')); //string
+     var n2 = Number(window.prompt('Digite outro número')); // string
+     var s = n1 + n2 
+     window.alert('A soma ente'${n1} 'e' ${n2} 'é igual a ' ${s});
  </script>
 </body>
 </html>
